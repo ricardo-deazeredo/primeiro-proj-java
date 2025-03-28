@@ -41,7 +41,7 @@ public class Aula01Variaveis {
         // Tipo abstrato
 
         Float numeroFloatAbs = 10.5f; // 32 bits
-        Double numerDoubleAbs = 10.5f; // 64 bits
+        Double numerDoubleAbs = 10.5; // 64 bits
 
         System.out.println("O valor de numeroFloat é: " + numeroFloat + ", e o valor de numeroDouble é: " + numeroDouble );
 
