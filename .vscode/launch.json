@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "av2",
+            "request": "launch",
+            "mainClass": "com.mycompany.av2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "avaliação",
             "request": "launch",
             "mainClass": "com.mycompany.avaliação",
