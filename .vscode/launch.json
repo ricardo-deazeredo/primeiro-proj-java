@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "aula05repetiçoes",
+            "request": "launch",
+            "mainClass": "com.mycompany.aula05repetiçoes",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "av2",
             "request": "launch",
             "mainClass": "com.mycompany.av2",
