@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula04OperadoresLogicos",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula04OperadoresLogicos",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "aula05repetiçoes",
             "request": "launch",
             "mainClass": "com.mycompany.aula05repetiçoes",
