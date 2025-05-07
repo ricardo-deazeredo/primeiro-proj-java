@@ -1,5 +1,7 @@
 package com.mycompany;
 
+import java.util.Scanner;
+
 public class aula05repetiçoes {
     public static void main(String[] args) throws InterruptedException {
         /**
@@ -23,6 +25,18 @@ public class aula05repetiçoes {
 
         }
         System.out.println("BOOM !!!");
+
+        /**
+         * Classe scanner
+         * 
+         * É ultilizada para ler valores do usuário inserido pelo promt
+         */
+
+         Scanner scan = new Scanner(System.in); // cria o scanner
+         System.out.println("Digite um número: ");
+
+         int numero = scan.nextInt(); // Lê o valor digitado e capturado pelo scanner
+         System.out.println("Você digitou " + numero + " !!");
     }
     
 }
