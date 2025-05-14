@@ -6,9 +6,14 @@ public class Ex03 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Digite seu peso: ");
+        System.out.println("Digite sua altura: ");
+
+        Scanner scan = new Scanner(System.in);
         System.out.println("Digite seu IMC: ");
 
         double imc = scan.nextDouble();
+
 
         if (imc < 16.0) {
             System.out.println("Magreza grau III");
