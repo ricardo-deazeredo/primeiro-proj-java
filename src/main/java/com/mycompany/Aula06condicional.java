@@ -1,5 +1,7 @@
 package com.mycompany;
 
+import java.util.Scanner;
+
 public class Aula06condicional {
 
     public static void main(String[] args) {
@@ -37,5 +39,54 @@ public class Aula06condicional {
         } else {
             System.out.println("está com obesidade");
         }
+
+        /**
+         * Estrutura switch/ case
+         * 
+         * É similar ao if/else, com a diferença que ele considera valores predefinidos
+         * que serão em cada case/ caso
+         * 
+         * na sua estrutura ele analisa uma variável, e considera dentre suas opções
+         * qual considera.
+         * 
+         * cada estrutura case deve conter um break, para encerrar a execução.
+         * 
+         * o default (padrão) é executado, caso nenhum case tenha sido executado
+         * 
+         * um exemplo seria uma pergunta de múltipla escolha.
+         */
+
+        // Digitando textos em mais de uma linha
+        System.out.println(
+                "1) verde, amarelo e azul, são cores que fazem parte da bandeira de qual país?\n" + //
+                        "\na) Argentina" + // é um escape usado para quebrar linha
+                        "\nb) Paraguai" +
+                        "\nc) Brasil" +
+                        "\nd) Alemanha" +
+                        "\n\nDigite uma opção : "
+
+        );
+
+        Scanner scan = new Scanner(System.in);
+        String opcao = scan.nextLine();
+
+        switch (opcao) {
+            case "a":
+                System.out.println("Resposta incorreta !!");
+                break;
+            case "b":
+                System.out.println("Resposta incorreta !!");
+                break;
+            case "c":
+                System.out.println("Resposta correta !!");
+                break;
+            case "d":
+                System.out.println("Resposta incorreta !!");
+                break;
+            default:
+                System.out.println("Opção inexistente !!");
+                break;
+        }
+
     }
 }
