@@ -11,10 +11,10 @@ public class Ex03 {
         System.out.println("Digite sua altura: ");
         double altura = scan.nextDouble();
 
-        double alturafinal = altura * altura;
+        double alturafinal = Math.pow(altura, altura) ;
         double imc = peso / alturafinal;
 
-        System.out.println(peso);
+        System.out.printf("\n Seu imc é %.1f, ", imc);
 
 
         if (imc < 16.0) {
