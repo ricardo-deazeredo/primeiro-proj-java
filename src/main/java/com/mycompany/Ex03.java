@@ -7,12 +7,14 @@ public class Ex03 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite seu peso: ");
+        double peso = scan.nextDouble();
         System.out.println("Digite sua altura: ");
+        double altura = scan.nextDouble();
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Digite seu IMC: ");
+        double alturafinal = altura * altura;
+        double imc = peso / alturafinal;
 
-        double imc = scan.nextDouble();
+        System.out.println(peso);
 
 
         if (imc < 16.0) {
