@@ -28,10 +28,10 @@ public class Aula09Objetos {
 
         Carro carro2 = new Carro("Celta", "Chevrolet");
 
-        System.out.println(carro == carro2);
+        System.out.println(carro == carro2); // Falso, são objetos diferentes 
 
-        System.out.println(carro instanceof Carro);
-        System.out.println(carro instanceof Object);
+        System.out.println(carro instanceof Carro); // True, é uma instância de carro 
+        System.out.println(carro instanceof Object); // True, é uma instância de object
 
     }
 
