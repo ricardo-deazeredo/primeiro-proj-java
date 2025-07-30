@@ -20,10 +20,19 @@ public class Aula09Objetos {
 
         // Método compareTo pertence ao tipo abstrato Integer
         numero.compareTo(numero2);
-        
+         
         // Instanciando uma classe
         Carro carro = new Carro("Celta", "Chevrolet");
         carro.andar(60);
+        carro.parar();
+
+        Carro carro2 = new Carro("Celta", "Chevrolet");
+
+        System.out.println(carro == carro2);
+
+        System.out.println(carro instanceof Carro);
+        System.out.println(carro instanceof Object);
+
     }
 
     /*
@@ -55,6 +64,10 @@ public class Aula09Objetos {
         void andar(int km) {
             this.quilometragem += km;
             System.out.println("O carro está percorrendo " + km + "km");
+        }
+
+        void parar() {
+            System.out.println("O veículo parou!! e percorreu um total de: " + this.quilometragem + "km");
         }
 
     }
