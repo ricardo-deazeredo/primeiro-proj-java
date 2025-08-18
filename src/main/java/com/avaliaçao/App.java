@@ -20,7 +20,6 @@ public class App {
         titular2.nome = "Maria";
         titular2.saldo = 3500;
         titular2.senha = 6998;
-
         
 
         
